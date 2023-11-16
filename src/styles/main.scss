@@ -1,0 +1,27 @@
+// Variables
+$primary-color: #3498db;
+$background-color: #ecf0f1;
+
+// Styles
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    h1 {
+        color: $primary-color;
+    }
+
+    p {
+        color: #333;
+    }
+}
